@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-size: 2.5rem;
+    text-decoration: dotted underline;
+    margin-bottom: 3rem;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #EDEDED;
+}
+form{
+    display: grid;
+    grid-template-columns: 20px 1fr 80px;
+    margin-bottom: 20px;
+}
+.search-icon {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 5px 16px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+input::placeholder{
+    font-size: 0.9rem;
+}
+form button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
