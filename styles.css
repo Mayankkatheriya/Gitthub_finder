@@ -12,15 +12,24 @@ body{
     align-items: center;
     padding: 2rem;
     font-family: 'PT Serif', serif;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.dark{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
 }
 h1{
     font-size: 2.5rem;
     text-decoration: dotted underline;
     margin-bottom: 3rem;
 }
+.dark h1{
+    color: yellow;
+}
+
 .container{
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 10px;
     padding: 1rem;
     background-color: #EDEDED;
@@ -51,4 +60,40 @@ form button{
     color: white;
     cursor: pointer;
     border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.profileInfo, .misc, .info, .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+}
+.info{
+    gap: 20px;
+    font-weight: 600;
+}
+.info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.misc{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.links{
+    margin: 1rem;
+}
+#toggle{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
