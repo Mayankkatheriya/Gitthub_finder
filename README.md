@@ -1,2 +1,2 @@
 # Github_finder
-# Hosted Link: [Click Me](https://mayankkatheriya.github.io/guthub_finder/)
+# Hosted Link: [Click Me](https://mayankkatheriya.github.io/Gitthub_finder/)
