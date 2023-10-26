@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <button id="toggle">
+      <svg
+        width="30"
+        height="30"
+        viewBox="0 0 256 256"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#000000"
+          d="M235.54 150.21a104.84 104.84 0 0 1-37 52.91A104 104 0 0 1 32 120a103.09 103.09 0 0 1 20.88-62.52a104.84 104.84 0 0 1 52.91-37a8 8 0 0 1 10 10a88.08 88.08 0 0 0 109.8 109.8a8 8 0 0 1 10 10Z"
+        />
+      </svg>
+    </button>
     <h1>GitHub Finder</h1>
     <form action="" class="container">
-        <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <input type="text" placeholder="Search GitHub Username">
-        <button>Search</button>
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <input type="text" placeholder="Search GitHub Username" required />
+      <button>Search</button>
     </form>
-    <div class="container" id="details">
-        Please enter your GitHub username
-    </div>
-    <script src="https://kit.fontawesome.com/08f45ad4dd.js" crossorigin="anonymous"></script>
-    <Script src="./script.js"></Script>
-</body>
+    <div class="container" id="details">Please enter your GitHub username</div>
+    <script
+      src="https://kit.fontawesome.com/08f45ad4dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
